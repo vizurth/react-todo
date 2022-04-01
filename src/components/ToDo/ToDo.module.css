@@ -1,0 +1,38 @@
+.todo__column{
+	display: flex;
+	align-items: center;
+	margin: 0 0 15px 0;
+	cursor: pointer;
+	width: 200px;
+	border: #999999 1px solid;
+	border-radius: 3px;
+	padding: 10px;
+}
+img.todo__img{
+	width: 30px;
+	margin: 0 10px 0 0;
+}
+.todo__task{
+	font-size: 19px;
+	width: 200px;
+	word-wrap: break-word;	
+}
+.todo__input{
+	width: 200px;
+	height: 41px;
+	border: #999999 1px solid;
+	padding: 10px 10px;
+	margin: 0 0 10px 0;
+	border-radius: 3px;
+}
+input.todo__input{
+	font-size: 19px;
+}
+.todo__btn{
+	margin: 0 0 0 10px;
+	border: 2px #393939 solid;
+	padding: 8px 18px;
+}
+.todo__input::placeholder{
+	
+}

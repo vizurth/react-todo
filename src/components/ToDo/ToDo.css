@@ -1,0 +1,36 @@
+.todo__block{
+	display: flex;
+	border-top: 1px solid #999;
+	padding: 10px 0 0 0;
+}
+.todo__list{
+	margin: 0 20px 0 0;
+	width: 200px;
+}
+.todo__status{
+	margin: 0 0 8px 0;
+}
+
+.todo__status-doesnt{
+	display: inline-block;
+	background-color: #ffe2de;
+	padding: 3px;
+	border-radius: 3px;
+}
+.todo__status-inProgress{
+	display: inline-block;
+	background-color: #feecca;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.todo__status-complete{
+	display: inline-block;
+	background-color: #daeddc;
+	padding: 3px;
+	border-radius: 3px;
+}
+.todo__plus{
+	cursor: pointer;
+	margin: 0 0 10px 0;
+}
