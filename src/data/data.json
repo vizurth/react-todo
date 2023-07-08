@@ -1,0 +1,14 @@
+{
+   "inputtext": "",
+   "toDoList": [
+      { "id": 1, "text": "First Task", "complete": false, "textarea": "" },
+      { "id": 2, "text": "Second Task", "complete": false, "textarea": "" },
+      {
+         "id": 3,
+         "text": "inProgress",
+         "complete": "inProgress",
+         "textarea": ""
+      },
+      { "id": 4, "text": "Complete Task", "complete": true, "textarea": "" }
+   ]
+}

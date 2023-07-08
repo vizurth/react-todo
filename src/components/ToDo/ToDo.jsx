@@ -5,16 +5,10 @@ import ToDoItem from "./ToDoItem";
 import Plus from "../assets/plus.svg";
 import ToDoInput from "./ToDoInput";
 import "./ToDo.css";
+import json from '../../data/data.json'
+console.log(json)
 const ToDo = (props) => {
-   let [state, handleChange] = useState({
-      inputText: "",
-      toDoList: [
-         { id: 1, text: "First Task", complete: false, textarea:'' },
-         { id: 2, text: "Second Task", complete: false, textarea:'' },
-         { id: 3, text: "inProgress", complete: "inProgress", textarea:'' },
-         { id: 4, text: "Complete Task", complete: true, textarea:'' },
-      ],
-   });
+   let [state, handleChange] = useState(json);
    let [trigger, setTrigger] = useState({
       status: false,
       toDo: {
@@ -57,7 +51,8 @@ const ToDo = (props) => {
                complete: state.complete,
                textarea: state.textarea,
             },
-         });
+         });		console.log('sdf')
+
       }
    };
 	let changeStatus = (id, status) => {
